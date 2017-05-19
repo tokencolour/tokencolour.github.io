@@ -7,9 +7,9 @@ title: Where The Music Is.
 	<p> Where words leave off, music begins. </p>
 	<p> Here is a list of songs and music I'll recommend, should you ask. </p>
 	<p>  </p>
-	<ul class="posts">
+	<ul class="music_posts">
 
-	  {% for post in site.posts %}
+	  {% for post in site.music_posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
