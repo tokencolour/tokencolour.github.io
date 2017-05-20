@@ -4,7 +4,7 @@ title: "GSoC 2017 with RTEMS"
 date: 2017-05-20
 ---
 
-![GSoC Logo](/index.png)
+![GSoC Logo](index.png)
 
 I have been selected as a participant for [Google Summer of Code, 2017](https://summerofcode.withgoogle.com/) under [RTEMS project](https://www.rtems.org/). My proposal for the project can be found here. My project involves bringing about enhancements in [rtems-tester](https://ftp.rtems.org/pub/rtems/people/chrisj/rtems-tester/rtems-tester.html). 
 
