@@ -4,14 +4,14 @@ title: "GSoC 2017 with RTEMS"
 date: 2017-05-20
 ---
 
-<p>I have been selected as a participant for [Google Summer of Code, 2017](https://summerofcode.withgoogle.com/) under [RTEMS project](https://www.rtems.org/). My proposal for the project can be found here. My project involves bringing about enhancements in [rtems-tester](https://ftp.rtems.org/pub/rtems/people/chrisj/rtems-tester/rtems-tester.html). </p>
+I have been selected as a participant for [Google Summer of Code, 2017](https://summerofcode.withgoogle.com/) under [RTEMS project](https://www.rtems.org/). My proposal for the project can be found here. My project involves bringing about enhancements in [rtems-tester](https://ftp.rtems.org/pub/rtems/people/chrisj/rtems-tester/rtems-tester.html). 
 
-<p> RTEMS​ is an embedded operating system and is cross-compiled for a number of target
+RTEMS​ is an embedded operating system and is cross-compiled for a number of target
 boards. Testing RTEMS requires that the cross-compiled test executable is transferred to the
 target hardware, executed and the output returned to the host where it is analysed to
 determine the test result. The RTEMS Tester​ provides a framework to do this. The goal of
-this project is to improve the current facilities of rtems-tester.</p>
-<p>
+this project is to improve the current facilities of rtems-tester.
+
 RTEMS-Tester is a test framework which can execute tests not only those related to RTEMS
 but also for any suitable application. The RTEMS testing tool resides in the RTEMS Tools
 package and this project aims at enhancing and improving some of the existing functionality
@@ -51,4 +51,4 @@ remotely.
 arm/realview_pbx_a9_qemu BSPs.
 8. I also plan to export the results of rtems-tester to xml format so that it can be
 plotted easily and used for other analysis as developers and users deem fit.
-</p>
+
