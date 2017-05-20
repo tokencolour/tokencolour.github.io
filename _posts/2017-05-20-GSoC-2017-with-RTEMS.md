@@ -39,7 +39,8 @@ separately.
 files for each bsp that contain an expected statistic for the tests, shall help the
 cause. Hence, this statistic can be compared with the current number of failed tests
 and help determine if the BSP has regressed against a change in rtems (or the test
-results in RTEMS need updating.)5. The present console support in the back end of rtems-tester is given by termios​.
+results in RTEMS need updating.)
+5. The present console support in the back end of rtems-tester is given by termios​.
 This python library does not work on Windows​ . Hence, my goal is to integrate
 PySerial​​ so that the benefits of it being a cross-platform tool help support
 consoles on both Windows and Unix.
