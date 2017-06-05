@@ -5,7 +5,7 @@ date: 2017-06-05
 ---
 
 Hi! I learnt how to undo commits. I want to document this for my own good. 
-(Yeah, you guessed it right. I am one sloppy creature.)
+(Yeah, you guessed it right. I am one careless creature.)
 
 check your files with
 ```
