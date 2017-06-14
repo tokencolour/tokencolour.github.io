@@ -37,7 +37,7 @@ The conversions are planned as below:
 There are three kinds of macro files. I segregated them on the basis of 
 similarity.
 
-###### Set 1
+#### Set 1
 
 Currently ``arm7tdmi.mc`` looks like this.
 
@@ -95,7 +95,7 @@ bsp_run_cmd = '%{rtems_tools}/%{bsp_arch}-rtems%{rtems_version}-run'
 bsp_run_opts = '-a -nouartrx'
 ```
 
-###### Set 2
+#### Set 2
 If the tester should run the tests on qemu for a bsp, the given pattern can 
 be followed:
 
@@ -109,7 +109,7 @@ arch = '<arch_name>'
 opts = '%{qemu_opts_base} %{qemu_opts_no_net} -m 32M'
 ```
 
-###### Set 3
+#### Set 3
 
 We discussed specifics for configuration files which need user-specific settings.
 User can also provide a "settings.ini" file in case a configuration file needs 
@@ -120,7 +120,7 @@ somewhere in the host machine. The settings.ini file can be passed with
 user-specified configuration.
 
 
-``xilinx_zynq_zc706.ini`` should look like the follwing:
+``xilinx_zynq_zc706.ini`` should look like the following:
 
 ```
 [xilinx_zynq_zc706]
