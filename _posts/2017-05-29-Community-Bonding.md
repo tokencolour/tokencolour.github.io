@@ -12,7 +12,7 @@ to what needs to be done during the summer.
 * Ask them for preffered form of communication
 * Introducing ourselves to the community with a mail on users mailing list
 * Adding our project to [Tracking Table](https://devel.rtems.org/wiki/GSoC/2017#StudentsSummerofCodeTrackingTable)
-* Adding a [Wik]i(https://devel.rtems.org/wiki/GSoC/2017/RTEMSTesterImprovements) page
+* Adding a [Wiki](https://devel.rtems.org/wiki/GSoC/2017/RTEMSTesterImprovements) page
 * Writing blog posts
 * Attending all weekly meetings
 
