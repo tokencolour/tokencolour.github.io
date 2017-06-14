@@ -72,7 +72,7 @@ arm7tdmi_gdb_script =   'target sim
 Similarly, ``arm7tdmi-run.mc`` contains:
 
 ```
- [global]
+[global]
 bsp:              none,    none,     'arm7tdmi'
 
 [arm7tdmi]
