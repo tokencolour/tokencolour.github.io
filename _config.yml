@@ -1,3 +1,5 @@
 name: Tanu Hari Dixit
 markdown: kramdown
+gems:
+  - jemoji
 
