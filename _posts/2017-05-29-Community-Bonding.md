@@ -116,7 +116,7 @@ User can also provide a "settings.ini" file in case a configuration file needs
 a path to, for instance, a first stage bootloader (fsbl) that is placed 
 somewhere in the host machine. The settings.ini file can be passed with 
 ``rtems-test --with-settings = /path/to/settings/file`` option. The 
-<bsp_name>.ini can contain defaults and the settings file can contain the 
+``<bsp_name>.ini`` can contain defaults and the settings file can contain the 
 user-specified configuration.
 
 
