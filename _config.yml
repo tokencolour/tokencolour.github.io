@@ -1,5 +1,243 @@
-name: Tanu Hari Dixit
-markdown: kramdown
-gems:
-  - jemoji
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
 
+# Content configuration version
+version: 2
+
+# Personal info
+name: Tanu Hari Dixit
+title: Validation Engineer
+email: tokencolour@gmail.com 
+email: thari.dixit.ece13@iitbhu.ac.in
+website: https://tokencolour.github.io 
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: tokencolour
+github_username:  tokencolour
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: jameswgrant
+linkedin_username: tanu-hari-dixit-2b7b62ba
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Tanu and I am a Validation Engineer at Texas Instruments, India. Other than working on validating high speed RF products, 
+  I have also worked as an Analog Design Engineer at TI, India. I am also interested in the software domain and have some experience working on it during college.
+
+    I am most experienced in using <mark>Cadence/Virtuoso</mark> , <mark>Python</mark>, <mark>Verilog-a</mark>, <mark>MATLAB</mark>. 
+    I am familiar with <mark>GIT</mark>, popular <mark>Linux</mark> distributions.
+    I am also familiar with <mark>Cadence/Allegro</mark> and <mark>Altium PCB Designer</mark>.
+
+
+content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: | 
+         Indian Institute of Technology,<br />
+         Banaras Hindu University (IIT-BHU)
+        caption: 2013 - 2017
+        sub_title: B.Tech, Electronics Engineering<br />
+         CGPA 9.55/10
+        quote: >
+          Established in 1919, IIT BHU is one of the oldest higher education institutions in India and is widely regarded in terms of its influence, reputation, and academic pedigree.
+        description: | # this will include new lines to allow paragraphs
+          During my time at IIT BHU, I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. 
+          I thoroughly enjoyed my time at university. I was awarded a <strong> silver medal </strong> for standing second position in Electronics Engineering, Class of 2017.
+
+          I spent a lot of my free time as a member of the *Electronics Engineering Society* and *Fine Arts Club*.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Validation Engineer
+        link: ti.com
+        # link_text: boringcompany.com
+        sub_title: Texas Instruments, India
+        caption: September 2019 - Present
+        quote: >
+          Solving 21st century high speed communication problems by validating awesome products
+        description: | # this will include new lines to allow paragraphs
+            I transitioned to being a <strong>Validation Engineer</strong> in <strong>High Speed Signal Conditioning</strong> group.
+            - Low power Single channel USB2.0 to eUSB2.0 repeater:
+               - Currently <strong>leading the validation</strong> for the project and implementing methodologies and automation for the product.
+            - 4 channel 2:1 wideband high speed multiplexer:
+               - <strong>Led</strong> the validation for the project
+               - Implemented TRL Algorithm for accurate fixture removal for <strong>precision</strong> AC measurements (up till <strong>~15GHz</strong>).
+               - Automated and completed data collection and analysis of about <strong>~50 devices</strong> (thereby busting myths of mass data collection for RF measurements)
+            - 2 channel 2:1 wideband high speed multiplexer:
+               - Validated AC characteristics of the high speed switch (BW~12-13GHz).
+               - Automated and analyzed data for AC characterization of the switch.
+      - layout: left
+        title: Analog Design Engineer
+        link: ti.com
+        # link_text: boringcompany.com
+        sub_title: Texas Instruments, India
+        caption: June 2017 - August 2019
+        quote: >
+          Solving 21st century high speed communication problems by designing blocks for awesome products
+        description: | # this will include new lines to allow paragraphs
+            My role at Texas Instruments, was of <strong>Analog Design Engineer</strong> in <strong>High Speed Signal Conditioning</strong> group. 
+            - 2 channel 2:1 high speed multiplexer:
+               - Designed a <strong>low power DC-DC converter</strong> to provide overdrive scaling with common mode, to a high speed switch.
+            - USB 2.0 Redriver:
+               - Designed a <strong>DC-DC converter (charge pump), Oscillator, and Power-on-reset</strong> circuit for a USB2.0 Redriver chip.
+               - Wrote scripts in Python to help automate writing verilog-a for the digital design to smoothen analog design verification. Some of my scripts are still used in the flow.
+            - USB 2.0 Repeater:
+               - Designed a <strong> DC-DC converter (charge pump), for a USB2.0-eUSB2.0 repeater </strong>, used in switches for HS mode USB2.0 communication.
+               - <strong>Owned analog design verification</strong> for the project of various features.
+            - PLL 8G-11G Hz
+               - <strong> Optimized the noise </strong> for the phase locked loop. 
+               - Designed the <strong>Charge Pump </strong>required for the PLL.
+            - PCIe retimer
+               - Designed Reference clock input and output buffers.
+               - Bug fixes to SMBUS 3.0 input and output buffers.
+               - Owned verification of a PLL for reference clock.
+               - Bug fixes to the verilog model for the PLL.
+      - layout: left
+        title: Teaching Assistant, CS101
+        sub_title: Indian Institute of Technology, BHU
+        caption: June 2016 - Dec 2017
+        description: | # this will include new lines to allow paragraphs
+            Led recitations and labs for Introduction to Computer Science, to students of Electronics Engineering'20 and Applied Physics'21.
+            
+      - layout: left
+        title: Sketch Artist
+        sub_title: Krafting Smiles
+        caption: June 2013 - Dec 2013
+        description: | # this will include new lines to allow paragraphs
+            Was part of a start up that makes highly personalized cards. The cards include a hand drawn sketch of the photograph sent to us and a poem written exclusively on the life story of the customer.
+
+  - title: Internships # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Internship in Analog Design 
+        sub_title: Texas Instruments, India
+        caption: May 2016 - July 2016
+        # link_text: Project Website
+        #additional_links:
+          #- title:  sproogen/modern-resume-theme
+            #icon: fab fa-github
+            #url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          Designed a low noise DAC to remove the DC offset accumulated in direct-conversion receivers. Made heavy use of Cadence (Virtuoso) to simulate the design and tested INL, DNL, noise, output impedance and layout considerations.
+      - layout: left
+        title: Summer Research Fellow (SRF) 
+        sub_title: Indian Institute of Technology, Kharagpur
+        caption: May 2015 - July 2015
+        # link_text: Project Website
+        #additional_links:
+        #  - title:  Template attack on SPA and FA resistant implementation of Montgomery Ladder
+        #    icon: fab ai-ieee
+        #    url: https://ieeexplore.ieee.org/document/7542698
+          #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+          Selected for the IASc-INSA-NASI Summer Research Fellowship, 2015, under the Indian Academy of Sciences.
+            Worked as a Summer Research Fellow at Indian Institute of Technology, Kharagpur, India in summer, 2015 under the guidance of Dr. Debdeep Mukhopadhyay, in Secured Embedded Architecture Laboratory (​ SEAL​ ), Department of Computer Science.
+            Implemented a Template power attack on a modular exponentiation algorithm called Joye's Ladder for the public key cryptosystem, RSA. (used Xilinx Microblaze soft-core processor of SASEBO-W standard side-channel analysis board). 
+            Eventually, co-authored a research paper [Template attack on SPA and FA resistant implementation of Montgomery Ladder](https://ieeexplore.ieee.org/document/7542698) got accepted in the IET (Institution of Engineering and Technology)  Information Security special issue on Lightweight and Energy-Efficient Security Solutions for Mobile Computing Devices.
+
+      - layout: left
+        title: B.Tech Project
+        sub_title: Indian Institute of Technology, BHU
+        caption: Dec 2016 - May 2017
+        # link_text: Project Website
+        #additional_links:
+        #  - title:  Template attack on SPA and FA resistant implementation of Montgomery Ladder
+        #    icon: fab ai-ieee
+        #    url: https://ieeexplore.ieee.org/document/7542698
+          #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+           <strong>Gaussian Processes (GP) Regression and Classification for estimating Channel State Information <br /> </strong>
+           Worked under the guidance of Prof. K. V. Srinivas, Department of Electronics Engineering. The proposed algorithm tracks the states of the channels by using a learning algorithm and by judiciously probing a set of users whose channel states may have changed, for efficient allocation of limited and time-varying resources among multiple users to satisfy their requirements in wireless networks.
+
+      - layout: left
+        title: Open Source Contribution
+        sub_title: Sympy
+        # link_text: Project Website
+        #additional_links:
+        #  - title:  Template attack on SPA and FA resistant implementation of Montgomery Ladder
+        #    icon: fab ai-ieee
+        #    url: https://ieeexplore.ieee.org/document/7542698
+          #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+           [These](https://tokencolour.github.io/2017/03/20/sympy-contribution.html) are the ​ patches I contributed/bugs I identified ​ for ​ [Sympy​](https://github.com/sympy/sympy) , a computer algebra system written in pure Python.
+
+
+  
+  - title: Activities
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+        - Continuum
+           - Founded and coordinated 'Continuum' in Udyam, 2016, IIT BHU, an analog electronics based event. It was an effort to introduce the fellow students to the challenges in the analog domain.
+        - Code-4-2day
+           - `Jan-Mar 15` Won the event as a part of the departmental fest UDYAM, IIT BHU. Collaborated to make an <strong>API</strong> that works as a journey planner. The back-end development was done using <strong>Python</strong>, <strong>Flask</strong> and <strong>Beautiful Soup</strong> and front-end using <strong>PyQt4</strong>.
+        - Line-follower Robot
+           - Collaborated to design and code grid solver robot, that follows line using IR sensors as part of Grid Mania, Technex, science and technology fest at IIT BHU, 2014.
+        - GridXplorer
+           - Co-coordinated the event as a part of Technex, 2015, IIT BHU, the problem statement of which required to design a grid solver robot.
+        - Mosaic
+           - Collaborated to make a gesture recognizing code snippet for Mosaic, an event in the departmental fest AAYAM, 2014, IIT BHU.
+
+
+     # Look at this cool image  
+     # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
