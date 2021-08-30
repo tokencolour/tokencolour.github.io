@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Tanu Hari Dixit
-title: Validation Engineer
+title: Embedded Software Engineer
 email: tokencolour@gmail.com 
 email: thari.dixit.ece13@iitbhu.ac.in
 website: https://tokencolour.github.io 
@@ -49,10 +49,10 @@ linkedin_username: tanu-hari-dixit-2b7b62ba
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Tanu and I am a Validation Engineer at Texas Instruments, India. Other than working on validating high speed RF products, 
-  I have also worked as an Analog Design Engineer at TI, India. I am also interested in the software domain and have some experience working on it during college.
+  Hi, my name is Tanu and I am an Embedded Software Engineer at Texas Instruments, India. I have also worked as a Validation Engineer at TI, India working on validating 
+  high speed RF products. Previously, I have also worked as an Analog Design Engineer at TI, India. 
 
-    I am most experienced in using <mark>Cadence/Virtuoso</mark> , <mark>Python</mark>, <mark>Verilog-a</mark>, <mark>MATLAB</mark>. 
+    I am most experienced in using <mark>C</mark>, mark>Cadence/Virtuoso</mark> , <mark>Python</mark>, <mark>Verilog-a</mark>, <mark>MATLAB</mark>. 
     I am familiar with <mark>GIT</mark>, popular <mark>Linux</mark> distributions.
     I am also familiar with <mark>Cadence/Allegro</mark> and <mark>Altium PCB Designer</mark>.
 
