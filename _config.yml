@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Tanu and I am an Embedded Software Engineer at Texas Instruments, India. I have also worked as a Validation Engineer at TI, India working on validating 
   high speed RF products. Previously, I have also worked as an Analog Design Engineer at TI, India. 
 
-    I am most experienced in using <mark>C</mark>, mark>Cadence/Virtuoso</mark> , <mark>Python</mark>, <mark>Verilog-a</mark>, <mark>MATLAB</mark>. 
+    I am most experienced in using <mark>C</mark>, <mark>Cadence/Virtuoso</mark> , <mark>Python</mark>, <mark>Verilog-a</mark>, <mark>MATLAB</mark>. 
     I am familiar with <mark>GIT</mark>, popular <mark>Linux</mark> distributions.
     I am also familiar with <mark>Cadence/Allegro</mark> and <mark>Altium PCB Designer</mark>.
 
@@ -75,7 +75,21 @@ content:
           I thoroughly enjoyed my time at university. I was awarded a <strong> silver medal </strong> for standing second position in Electronics Engineering, Class of 2017.
 
           I spent a lot of my free time as a member of the *Electronics Engineering Society* and *Fine Arts Club*.
-
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Embedded Software Engineer
+        link: ti.com
+        # link_text: boringcompany.com
+        sub_title: Texas Instruments, India
+        caption: July 2021 - Present
+        quote: >
+          Working in the Security Platform Software team for delivering secure TI SoC's
+        description: | # this will include new lines to allow paragraphs
+            I transitioned to being an <strong>Embedded Software Engineer</strong> in <strong>Embedded Processors</strong> group.
+            - Sitara Family of SoCs
+               - Currently working on implementation of pre-silicon security firmware for  a product in Sitara family of SoCs
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -84,13 +98,15 @@ content:
         link: ti.com
         # link_text: boringcompany.com
         sub_title: Texas Instruments, India
-        caption: September 2019 - Present
+        caption: September 2019 - June 2021
         quote: >
           Solving 21st century high speed communication problems by validating awesome products
         description: | # this will include new lines to allow paragraphs
             I transitioned to being a <strong>Validation Engineer</strong> in <strong>High Speed Signal Conditioning</strong> group.
+            - High speed Cross Bar
+               - <strong>Led</strong> the endeavour for delivering the comprehensive test program for a high priority customer.
             - Low power Single channel USB2.0 to eUSB2.0 repeater:
-               - Currently <strong>leading the validation</strong> for the project and implementing methodologies and automation for the product.
+               - <strong>Led the validation</strong> for the project and implemented methodologies and automation for the product.
             - 4 channel 2:1 wideband high speed multiplexer:
                - <strong>Led</strong> the validation for the project
                - Implemented TRL Algorithm for accurate fixture removal for <strong>precision</strong> AC measurements (up till <strong>~15GHz</strong>).
